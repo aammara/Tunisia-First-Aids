@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+ <!-- HEADER -->
+  <include android:id="@+id/top_header"
+        android:layout_alignParentTop="true" layout="@layout/actionbar_layout" />
+  <!-- FOOTER --> 
+   <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_below="@id/top_header"
+        android:layout_weight="1"
+        android:id="@+id/sub_content_view"
+        android:paddingBottom="0sp" android:paddingTop="0dp">
+
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="LE TRAITEMENT : "
+                android:textColor="#040c5a" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1- Arrosez immédiatement la brûlure avec de l'eau froide pendant cinq minutes." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+               <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/lave" />
+           
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2- Retirez également les éventuelles bagues, bracelets, montres et chaussures du membre brûlé, car ces objets pourraient gêner la circulation du sang en cas d'enflure du membre." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+             
+         
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3- N'appliquez pas de corps gras (beurre, huile ...) ou de pommade sur la brûlure. Evitez également les remèdes de grand-mères (pomme de terre, vinaigre, etc.) qui ne servent qu'à favoriser les infections." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+      
+    
+              
+        </LinearLayout>
+    </ScrollView>
+ 
+</LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

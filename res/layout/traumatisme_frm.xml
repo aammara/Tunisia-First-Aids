@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dip"
+        android:padding="5px" >
+
+        <LinearLayout
+          android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    android:padding="15px" >
+
+                     
+
+                       <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Traumatisme"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      
+
+             <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="27dp"
+                android:text="1- Calmez la victime afin qu'elle ne bouge pas. " />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="27dp"
+                android:text="2- Alertez les secours ou demandez à quelqu'un de le faire si vous n'étes pas seul. " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="27dp"
+                android:text="3- Si la victime est agitée n'immobilisez pas sa tête ou son cou contre sa volonté. " />
+            
+ 
+            
+        
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/vediotraumatisme" 
+                android:layout_marginTop="27dp"/>
+    
+          </LinearLayout>
+    </ScrollView>
+</LinearLayout>

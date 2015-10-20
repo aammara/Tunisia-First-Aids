@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >  
+  
+   <LinearLayout
+       android:id="@+id/sub_content_view"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_below="@id/top_header"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       android:paddingBottom="0dp"
+       android:paddingTop="10dp" >
+
+      <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+          <ScrollView
+              android:id="@+id/scrollView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical" 
+                  >
+
+
+                  <ImageView
+                      android:id="@+id/imageView1"
+                      android:layout_width="match_parent"
+                      android:layout_margin="10dp"
+                      android:layout_height="100dp"
+                      android:layout_gravity="center"
+                      android:background="#990000"
+                      android:src="@drawable/header_se_former" />
+
+                  <TextView
+                      android:id="@+id/textView1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:layout_marginTop="10dp"
+                      android:text="étape 2 :"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textColor="#990000"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/textView1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:text="Appréciez l’état de la victime"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="#666666" />
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+                      <TextView
+                          android:id="@+id/textView2"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Vérifiez que la personne est consciente et qu’elle respire normalement. Présentez-vous et expliquer ce que vous allez faire pour la rassurer sinon …
+Devant l’impossibilité de supprimer le danger et si la victime est incapable de se soustraire elle même au danger.
+-dégager la victime le plus rapidement possible."
+                          android:textColor="#333333" />
+                      
+                  </LinearLayout>
+              </LinearLayout>
+
+          </ScrollView>
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

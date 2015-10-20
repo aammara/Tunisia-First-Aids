@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="hello">Hello World, StarFinderActivity!</string>
+    <string name="app_name">StarFinder</string>
+    <string name="wificonnect">cette application necessite une connection internet.voulez vous l\'activé</string>
+	
+</resources>

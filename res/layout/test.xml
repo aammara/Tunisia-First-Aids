@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapView2"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:apiKey="0efAtp0ViHETk85vAy639Iwatl0NM49So8aGB1g"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <LinearLayout
+        android:id="@+id/zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+    </LinearLayout>
+
+</AbsoluteLayout>

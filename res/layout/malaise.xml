@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+ <!-- HEADER -->
+  <include android:id="@+id/top_header"
+        android:layout_alignParentTop="true" layout="@layout/actionbar_layout" />
+  <!-- FOOTER --> 
+   <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_below="@id/top_header"
+        android:layout_weight="1"
+        android:id="@+id/sub_content_view"
+        android:paddingBottom="0sp" android:paddingTop="0dp">
+
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             >
+
+          
+
+              
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="LE TRAITEMENT : "
+                android:textColor="#040c5a" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1- Stoppez l'hémorragie éventuelle par compression locale prolongée, compression à distance et si nécessaire par garrot." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+               <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/apuimain" />
+           
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2- Allongez systématiquement le patient tête basse, sauf si il présente une plaie du thorax avec gène respiratoire. Dans ce cas il doit être placé en position demi-assise." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+                <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/malade" />
+         
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3- Protéger la plaie avec des compresses ou un linge propre." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+             <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ponsement" />
+    
+              
+        </LinearLayout>
+    </ScrollView>
+
+   
+    
+</LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

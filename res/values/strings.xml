@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="hello">Hello World, StarFinderActivity!</string>
+    <string name="app_name">My Urgency Tools</string>
+    <string name="wificonnect">this app need internet connection.would you activate it?</string>
+	<string-array name="GS">
+        <item>O-</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_brulure">Brulure</string>
+    <string name="title_activity_vic_resp">VicResp</string>
+    <string name="title_activity_vic_nresp">VicNresp</string>
+    <string name="title_activity_vic_nrep">VicNrep</string>
+</resources>

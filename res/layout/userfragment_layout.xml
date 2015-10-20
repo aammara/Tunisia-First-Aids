@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn.orange.secoure.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_search"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/agir"
+        android:text="Search" />
+ 
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_favoris"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/favoris"
+        android:text="Favorites" />
+ 
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_about"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/info"
+        android:text="About" />
+    
+ 	<!--  Places Button -->   
+    <Button
+        android:id="@+id/btn_exit"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/exit"
+        android:text="Exit" />
+  
+ 
+ 
+ 
+</tn.orange.secoure.DashboardLayout>

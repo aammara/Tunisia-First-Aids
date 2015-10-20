@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dip"
+        android:padding="5px" >
+
+        <LinearLayout
+          android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    android:padding="15px" >
+
+                     
+
+                       <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Malaise"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      
+
+             <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="27dp"
+                android:text="1- Mettez la victime au repos dans une position confortable. " />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="27dp"
+                android:text="2- Libérez les voies aériennes. " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="27dp"
+                android:text="3- Alertez immédiatement les secours. " />
+            
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="27dp"
+                android:text="4- Vérifier régulièrement la respiration de la victime ." />
+            
+        
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/vediomalaise" 
+                android:layout_marginTop="27dp"/>
+    
+          </LinearLayout>
+    </ScrollView>
+</LinearLayout>

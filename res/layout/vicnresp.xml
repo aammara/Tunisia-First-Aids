@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             >
+
+          
+
+              
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="LE TRAITEMENT : "
+                android:textColor="#040c5a" />
+            
+            
+             <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1- Allerter les secours " 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2- Alloguer la victime sur le dos sur un plan dure. " 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+            
+             <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3- Déterminez la zone d'appui de la façon suivante. " 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+             
+            
+            
+              <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3- Déterminez la zone d'appui de la façon suivante. " 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+             
+                <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4-  Placez le talon d'une main juste en dessous du milieu repéré. " 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+                  <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5- Placez l'autre main au-dessus de la première, en entrecroisant les doigts des deux mains. " 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+            
+                      <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6- Poussez vos mains rapidement vers le bas, les bras bien tendus, les coudes bloqués , puis laissez-les remonter. " 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/> 
+                 
+           
+               <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/massage" />
+               
+            
+    
+              
+        </LinearLayout>
+    </ScrollView>
+
+   
+    
+</LinearLayout>

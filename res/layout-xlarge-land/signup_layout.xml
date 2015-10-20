@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8f9fe"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/usernamelabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dip"
+            android:text="Username"
+            android:textColor="#ff29549f"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+         <EditText
+            android:id="@+id/username"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usernamelabel"
+            android:layout_centerHorizontal="true" >
+
+            <requestFocus />
+        </EditText>
+        <TextView
+            android:id="@+id/passwordlabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+           android:layout_below="@id/username"
+            android:padding="4dip"
+            android:text="Password"
+            android:textColor="#ff29549f"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+       
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordlabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:inputType="textPassword" />
+
+         <TextView
+            android:id="@+id/emaillabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+           android:layout_below="@id/password"
+            android:padding="4dip"
+            android:text="Email adresse"
+            android:textColor="#ff29549f"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+       
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emaillabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/phonelabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+           android:layout_below="@id/email"
+            android:padding="4dip"
+            android:text="phone number"
+            android:textColor="#ff29549f"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+       
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phonelabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+        <Button
+            android:id="@+id/signupbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/signupselector" />
+
+    </RelativeLayout>
+
+</LinearLayout>

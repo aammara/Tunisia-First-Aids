@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+ <!-- HEADER -->
+  <include android:id="@+id/top_header"
+        android:layout_alignParentTop="true" layout="@layout/actionbar_layout" />
+  <!-- FOOTER --> 
+   <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_below="@id/top_header"
+        android:layout_weight="1"
+        android:id="@+id/sub_content_view"
+        android:paddingBottom="0dp" android:paddingTop="20dp">
+
+      <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+          <ScrollView
+              android:id="@+id/scrollView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical" >
+
+                  <ImageButton
+                      android:id="@+id/imageButtonProches"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="10dp"
+                      android:background="@null"
+                      android:src="@drawable/proche" />
+
+                  <ImageButton
+                      android:id="@+id/imageButtonPolice"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="10dp"
+                      android:background="@null"
+                      android:src="@drawable/police" />
+
+                  <ImageButton
+                      android:id="@+id/imageButtonSamu"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="10dp"
+                      android:background="@null"
+                      android:src="@drawable/samu" />
+
+                  <ImageButton
+                      android:id="@+id/imageButtonPompier"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="10dp"
+                      android:background="@null"
+                      android:src="@drawable/pombier" />
+              </LinearLayout>
+          </ScrollView>
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

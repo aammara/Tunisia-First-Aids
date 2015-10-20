@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+ <!-- HEADER -->
+  <include android:id="@+id/top_header"
+        android:layout_alignParentTop="true" layout="@layout/actionbar_layout" />
+  <!-- FOOTER --> 
+   <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_below="@id/top_header"
+        android:layout_weight="1"
+        android:id="@+id/sub_content_view"
+        android:paddingBottom="5sp" android:paddingTop="10dp">
+
+       <ScrollView
+           android:id="@+id/scrollView1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" >
+
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:orientation="vertical"
+               android:padding="15px" >
+
+               <Button
+                   android:id="@+id/button1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:height="40dip"
+                   android:paddingBottom="@dimen/padding_large"
+                   android:paddingRight="@dimen/padding_large"
+                   android:text="etouffement"
+                   android:textColor="#FFFFFF"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+               <Button
+                   android:id="@+id/button2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:height="40dip"
+                   android:paddingBottom="10dip"
+                   android:text="saignement"
+                   android:textColor="#FFFFFF"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+               <Button
+                   android:id="@+id/button3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:height="40dip"
+                   android:paddingBottom="10dip"
+                   android:text="malaise"
+                   android:textColor="#FFFFFF"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+               <Button
+                   android:id="@+id/button4"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:height="40dip"
+                   android:paddingBottom="10dip"
+                   android:text="plaie"
+                   android:textColor="#FFFFFF"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+               <Button
+                   android:id="@+id/button5"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:height="40dip"
+                   android:paddingBottom="10dip"
+                   android:text="bulure"
+                   android:textColor="#FFFFFF"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+               <Button
+                   android:id="@+id/button6"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:height="40dip"
+                   android:paddingBottom="10dip"
+                   android:text="traumatisme dos/cou"
+                   android:textColor="#FFFFFF"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+               <Button
+                   android:id="@+id/button7"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:height="40dip"
+                   android:paddingBottom="10dip"
+                   android:text="fracture"
+                   android:textColor="#FFFFFF"
+                   android:textSize="20dp"
+                   android:textStyle="bold" />
+           </LinearLayout>
+
+       </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

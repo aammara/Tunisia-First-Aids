@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dip" >
+
+        <LinearLayout
+          android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    android:padding="15px" >
+
+                     <TextView
+                         android:id="@+id/textView3"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         android:layout_marginBottom="15dp"
+                         android:text="Etouffement"
+                         android:textStyle="bold"
+                         android:textAppearance="?android:attr/textAppearanceLarge"
+                         android:textColor="#990000" />
+
+                       <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1- Si la victime s’étouffe et répond : "
+                android:textColor="#A00000"
+             android:textAppearance="?android:attr/textAppearanceSmall" />
+      
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView1"
+                 android:layout_below="@+id/textView1"
+                 android:text="Interrogez la victime, elle vous répond en disant: “je m’étouffe”."
+                 android:textColor="#333333" />
+
+            </LinearLayout>
+            <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:text="Observez la victime: elle peut encore parler, tousser et respirer."
+                android:textColor="#333333" />
+
+</LinearLayout>
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_centerVertical="true"
+                android:text="Incitez la victime à continuer à tousser."
+                android:textColor="#333333" />
+
+</LinearLayout>
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+               <TextView
+                   android:id="@+id/textView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignLeft="@+id/textView1"
+                   android:layout_below="@+id/textView1"
+                   android:text="Installer la victime dans la position où elle se sent le mieux."
+                   android:textColor="#333333" />
+
+               </LinearLayout>
+                               <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2- Si la victime d’étouffe et ne répond pas : "
+                android:textColor="#A00000"
+             android:textAppearance="?android:attr/textAppearanceSmall" />
+      
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView1"
+                 android:layout_below="@+id/textView1"
+                 android:text="Interrogez la victime: elle ne répond pas mais elle est consciente."
+                 android:textColor="#333333" />
+
+            </LinearLayout>
+            <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:text="Observez la victime: elle ne peut ni parler, ni tousser, ni respirer."
+                android:textColor="#333333" />
+
+</LinearLayout>
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_centerVertical="true"
+                android:text="Donnez un maximum de 5 claques dan le dos de la victime. Après chaque claque vérifiez que tout rentre dans l’ordre.."
+                android:textColor="#333333" />
+
+</LinearLayout>
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+               <TextView
+                   android:id="@+id/textView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignLeft="@+id/textView1"
+                   android:layout_below="@+id/textView1"
+                   android:text="Si les claques dans le dos n’ont pas d’effet, effectuer un."
+                   android:textColor="#333333" />
+
+               </LinearLayout>
+            
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/vetouffement" 
+                android:layout_marginTop="27dp"/>
+    
+          </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dip"
+        android:padding="5px" >
+
+        <LinearLayout
+          android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    android:padding="15px" >
+
+                     
+
+                       <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fracture"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      
+
+             <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="27dp"
+                android:text="1- Appelez les secours et suivez leurs conseils. " />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="27dp"
+                android:text="2- Ne tentez pas de remettre en place un membre qui parait déformé. " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="27dp"
+                android:text="3- Conseillez la victime de ne pas bouger son membre blessé et si les secours sont sur le point d'arriver,de ne pas l'immobiliser." />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/vediofracture" 
+                android:layout_marginTop="27dp"/>
+    
+          </LinearLayout>
+    </ScrollView>
+</LinearLayout>

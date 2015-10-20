@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+ <!-- HEADER -->
+  <include android:id="@+id/top_header"
+        android:layout_alignParentTop="true" layout="@layout/actionbar_layout" />
+  <!-- FOOTER --> 
+   <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_below="@id/top_header"
+        android:layout_weight="1"
+        android:id="@+id/sub_content_view"
+        android:paddingBottom="0sp" android:paddingTop="0dp">
+
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-LES SYMPTÔMES :" 
+                android:paddingTop="5dp"
+                android:textColor="#040c5a"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* le sujet entend un craquement et ressent une vive douleur qui augmente lorsqu'il tente de bouger le membre atteint." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+
+              <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* le gonflement et la déformation de la zone fracturée sont indiscutables." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+           
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="2-traitements:"
+                android:textColor="#040c5a" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1- Si le sauveteur choisi d'évacuer la victime vers le centre de soins le plus proche, il doit auparavant immobiliser le membre touché.." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+            <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/mainfix" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2- Pour les fractures ouvertes placez tout d'abord un linge propre ou des compresses fixées par une bande sur la plaie." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3- Si les secours ne peuvent pas arriver rapidement, immobilisez le membre avec des attelles gonflables ou des attelles de fortune si vous êtes un secouriste confirmé. Si ce n'est pas le cas contentez vous de caler le membre." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+           
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/dormi" />
+
+   
+                                                    
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/paguette" />
+ <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/fix" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

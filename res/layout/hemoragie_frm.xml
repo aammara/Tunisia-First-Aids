@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dip"
+        android:padding="5px" >
+
+        <LinearLayout
+          android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    android:padding="15px" >
+
+                     
+
+              <TextView
+                         android:id="@+id/textView3"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         android:layout_marginBottom="15dp"
+                         android:text="Saignement"
+                         android:textStyle="bold"
+                         android:textAppearance="?android:attr/textAppearanceLarge"
+                         android:textColor="#990000" />
+
+      
+            <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView1"
+                 android:layout_below="@+id/textView1"
+                 android:text="Evitez, si possible, tout contact avec le sang de la victime. demandez-lui de comprier elle-même sa blessure."
+                 android:textColor="#333333" />
+
+            </LinearLayout>
+
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_centerVertical="true"
+                android:text="Sinon, appuyez directement sur la plaie avec une main protégée(gants jetables, sac plastique ou linge)."
+                android:textColor="#333333" />
+
+</LinearLayout>
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+               <TextView
+                   android:id="@+id/textView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignLeft="@+id/textView1"
+                   android:layout_below="@+id/textView1"
+                   android:text="Allongez la victime."
+                   android:textColor="#333333" />
+
+               </LinearLayout>
+ <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+               <TextView
+                   android:id="@+id/textView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignLeft="@+id/textView1"
+                   android:layout_below="@+id/textView1"
+                   android:text="demandez à une personne présente d’alerter les secours ou faites le vous-même si vous êtes seul."
+                   android:textColor="#333333" />
+
+               </LinearLayout>    
+               <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/textView1"
+                 android:layout_below="@+id/textView1"
+                 android:text="si la plaie continue de saigner, comprimez-la encore plus fermement."
+                 android:textColor="#333333" />
+
+            </LinearLayout>
+            <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:text="Poursuivez la compression sur la plaie jusqu’à l’arrivée des secours."
+                android:textColor="#333333" />
+
+</LinearLayout>
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_centerVertical="true"
+                android:text="Si vous devez vous libérer(pour donner l’alerte par exemple),appliquez un tampon relais pour remplaer votre compression manuelle."
+                android:textColor="#333333" />
+
+</LinearLayout>
+<LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@android:drawable/editbox_dropdown_light_frame"
+                      android:padding="10dp"
+                      android:layout_margin="5dp"
+                      >
+
+               <TextView
+                   android:id="@+id/textView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignLeft="@+id/textView1"
+                   android:layout_below="@+id/textView1"
+                   android:text="Lavez vous les mains avoir effecuté ces premiers gestes."
+                   android:textColor="#333333" />
+
+               </LinearLayout>            
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/vhemoragie" 
+                android:layout_marginTop="27dp"/>
+    
+          </LinearLayout>
+    </ScrollView>
+</LinearLayout>

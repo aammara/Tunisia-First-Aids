@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:padding="5px" 
+        android:layout_marginBottom="50dip">
+
+        <LinearLayout
+          android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    android:padding="15px" >
+
+                        <Button
+                            android:id="@+id/button1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/padding_large"
+                            android:paddingRight="@dimen/padding_large"
+                            android:text="etouffement"
+                            android:textColor="#FFFFFF" 
+                             android:height="40dip"/>
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                           />
+
+    
+     <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hémoragie" 
+        android:textColor="#FFFFFF"
+    android:paddingBottom="10dip"
+     android:height="40dip"/>
+<TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                           />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inconscience" 
+        android:textColor="#FFFFFF"
+        android:paddingBottom="10dip"
+         android:height="40dip"/>
+<TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                           />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Malaise" 
+        android:textColor="#FFFFFF"
+        android:paddingBottom="10dip"
+        android:height="40dip"/>
+<TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                           />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="brûlure" 
+        android:textColor="#FFFFFF"
+        android:paddingBottom="10dip"
+        android:height="40dip"/>
+<TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                           />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="traumatisme dos/cou" 
+        android:textColor="#FFFFFF"
+        android:paddingBottom="10dip"
+        android:height="40dip"/>
+<TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                           />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fracture" 
+        android:textColor="#FFFFFF"
+        android:paddingBottom="10dip"
+       
+        android:height="40dip"/>
+          </LinearLayout>
+    </ScrollView>
+   
+</LinearLayout>
