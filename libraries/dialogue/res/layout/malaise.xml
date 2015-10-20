@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back2">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-LES SYMPTÔMES :" 
+                android:paddingTop="5dp"
+                android:textColor="#040c5a"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* La victime ressent une grande fatigue et a l'impression d'avoir les jambes en coton." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+
+              <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Elle peut éprouver des vertiges, des palpitations cardiaques, des crampes digestives ou une grande faim.." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+              <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Si les voies aériennes sont totalement obstruées, la victime ne peut ni parler ni respirer, son visage rougit puis bleuit et elle peut perdre connaissance très rapidement." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+
+       
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="2-LE TRAITEMENT :"
+                android:textColor="#040c5a" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1- Allongez la victime (en lui surélevant les pieds), pour éviter qu'elle ne se blesse en tombant et également pour améliorer l'irrigation sanguine de son cerveau. S'il n'est pas possible de l'allonger, faites la asseoir et demandez lui de mettre la tête entre les genoux pendant quelques minutes." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2- Desserrez son col et sa ceinture pour faciliter sa respiration." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3- Demandez à la victime s'il s'agit de son premier malaise et si elle doit prendre des médicaments (le cas échéant donnez les lui)." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4- Si la victime demande spontanément du sucre, lui en donner, de préférence en morceaux." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+
+   
+          <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5- Si la victime a un comportement agité, isolez-la de la foule dans une pièce tranquille." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+                <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6- Si la victime a un comportement agité, isolez-la de la foule dans une pièce tranquille." 
+                 android:textSize="12dp"
+                 android:paddingTop="5dp"
+                 android:textColor="#0214ca"/>
+                      
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

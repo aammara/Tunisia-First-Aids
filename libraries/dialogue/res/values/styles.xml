@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+ <style name="Button">
+    <item name="android:textColor">#fff</item>
+    <item name="android:textSize">20dp</item>
+    </style>
+</resources>
